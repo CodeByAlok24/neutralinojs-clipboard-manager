@@ -13,6 +13,10 @@ A lightweight, cross-platform Clipboard Manager application built with **Neutral
 - **Beautiful UI** - Clean purple gradient design with smooth animations
 - **Cross-Platform** - Works on Windows, macOS, and Linux
 
+## ✔️ ScreenShot - UI :
+
+<img width="918" height="935" alt="Screenshot 2026-03-12 151603" src="https://github.com/user-attachments/assets/296fa8b2-f8b5-4c98-908c-1167a1d3a577" />
+
 ## 🧠 How It's Built Using Neutralinojs APIs
 
 ### 1. **Clipboard API** (`Neutralino.clipboard`)
