@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Clipboard Manager</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div id="neutralinoapp">
+      <header>
+        <h1>📋 Clipboard Manager</h1>
+        <p class="subtitle">Save and manage your clipboard history</p>
+      </header>
+
+      <main>
+        <!-- Input Section -->
+        <section class="input-section">
+          <label for="clipboard-input">Current Clipboard:</label>
+          <textarea id="clipboard-input" placeholder="Type or paste text here..."></textarea>
+          <button onclick="saveToHistory()">Save to History</button>
+        </section>
+
+        <!-- History Section -->
+        <section class="history-section">
+          <div class="history-header">
+            <h2>📚 History</h2>
+            <button class="clear-btn" onclick="clearHistory()">Clear History</button>
+          </div>
+          <div id="history-list" class="history-list">
+            <p class="empty-message">No history yet. Save something!</p>
+          </div>
+        </section>
+
+        <!-- Stats -->
+        <footer class="stats">
+          <p id="stats-text">Items saved: 0</p>
+          <p id="app-info"></p>
+        </footer>
+      </main>
+    </div>
+
+    <script defer src="/js/neutralino.js"></script>
+    <script defer src="/js/main.js"></script>
+  </body>
+</html>
